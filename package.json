@@ -1,0 +1,8 @@
+{
+  "name": "jest-workshop",
+  "version": "1.0.0",
+  "description": "Jest workshop",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
