@@ -1,0 +1,43 @@
+export default [
+  {
+    id: 1,
+    name: "Luke Skywalker",
+    type: "light",
+    rank: "master",
+    status: "alive",
+    email: "luke@ach.to",
+  },
+  {
+    id: 2,
+    name: "Yoda",
+    type: "light",
+    rank: "master",
+    status: "ghost",
+    email: "yoda@dagobah.com",
+  },
+  {
+    id: 3,
+    name: "Ben Solo",
+    type: "light",
+    rank: "apprentice",
+    status: "alive",
+    master: 1,
+    email: "ben.solo@gmail.com",
+  },
+  {
+    id: 4,
+    name: "Rey",
+    type: "light",
+    rank: "potential",
+    status: "alive",
+    email: "rey@jaku.mail",
+  },
+  {
+    id: 5,
+    name: "Supreme Leader Snoke",
+    type: "dark",
+    rank: "master",
+    status: "alive",
+    email: "snoke@altavista.com",
+  },
+];

@@ -1,0 +1,46 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "unobtrusive",
+    "unobtrusive/react",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "globals": {
+    "describe": true,
+    "it": true,
+    "afterEach": true,
+    "beforeEach": true,
+    "afterAll": true,
+    "beforeAll": true,
+    "expect": true,
+    "jest": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all",
+        "singleQuote": false,
+        "printWidth": 120
+      }
+    ],
+    "no-console": [
+      1,
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "unobtrusive",
+    "unobtrusive/react",
+    "prettier",
+    "prettier/react"
+  ]
+}

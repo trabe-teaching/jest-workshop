@@ -1,0 +1,38 @@
+@keyframes glowing-red {
+  0% { box-shadow: 0 0 5px #d21111; }
+  50% { box-shadow: 0 0 20px #d21111; }
+  100% { box-shadow: 0 0 5px #d21111; }
+}
+
+@keyframes glowing-blue {
+  0% { box-shadow: 0 0 5px #70c7fd; }
+  50% { box-shadow: 0 0 20px #70c7fd; }
+  100% { box-shadow: 0 0 5px #70c7fd; }
+}
+
+.force-user--light:not(.force-user--dead) {
+  animation: glowing-blue 3000ms infinite;
+}
+
+.force-user--dark:not(.force-user--dead) {
+  animation: glowing-red 3000ms infinite;
+}
+
+.force-user--dead .image img {
+  filter: grayscale(1);
+  opacity: 0.6;
+}
+
+.force-user--ghost .image img {
+  filter: grayscale(1) brightness(1);
+}
+
+.force-user--ghost .image:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 64px;
+  width: 64px;
+  z-index: 1;
+  background-color: #329ddc66;
+}
