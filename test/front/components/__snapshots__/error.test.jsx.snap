@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/components/error renders if visible 1`] = `
+<div
+  class="modal is-active"
+>
+  <div
+    class="modal-background"
+  />
+  <div
+    class="modal-content"
+  >
+    <article
+      class="message is-danger"
+    >
+      <div
+        class="message-header"
+      >
+        <p>
+          The death star has exploded
+        </p>
+      </div>
+      <div
+        class="message-body"
+      >
+        <figure
+          class="image"
+        >
+          <img
+            alt="Image"
+            src="assets/death-star.png"
+          />
+        </figure>
+      </div>
+    </article>
+  </div>
+</div>
+`;
+
+exports[`front/components/error renders nothing if not visible 1`] = `null`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`back/logic/seek-master converst a potential into an appretince 1`] = `
+---------- SEEDS ----------
+Array [
+  Object {
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "id": 4,
+    "name": "Rey",
+    "rank": "potential",
+    "status": "alive",
+    "type": "light",
+  },
+]
+--------- CHANGES ---------
+Array [
+  Object {
+    "actions": Array [
+      "turn",
+    ],
+    "id": 4,
+    "master": 1,
+    "name": "Rey",
+    "rank": "apprentice",
+    "status": "alive",
+    "type": "light",
+  },
+]
+--------- DATA ------------
+Array [
+  Object {
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "id": 4,
+    "master": 1,
+    "name": "Rey",
+    "rank": "apprentice",
+    "status": "alive",
+    "type": "light",
+  },
+]
+`;

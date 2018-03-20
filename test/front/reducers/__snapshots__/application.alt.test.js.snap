@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  Object {
+    "canBanish": false,
+    "canBetray": false,
+    "canSeek": false,
+    "canTurn": false,
+    "master": undefined,
+    "name": "john",
+  },
+]
+`;
+
+exports[` 2`] = `
+Array [
+  Object {
+    "canBanish": false,
+    "canBetray": false,
+    "canSeek": false,
+    "canTurn": false,
+    "master": undefined,
+    "name": "lucas",
+  },
+]
+`;
+
+exports[`front/reducers/application reducer has a default state 1`] = `
+Object {
+  "error": false,
+  "loading": 0,
+  "users": Object {
+    "darkSiders": Array [],
+    "lightSiders": Array [],
+    "repo": Object {},
+  },
+}
+`;
+
+exports[`front/reducers/application reducer reduces REQUEST 1`] = `
+Object {
+  "error": false,
+  "loading": 2,
+  "users": Object {
+    "darkSiders": Array [
+      2,
+    ],
+    "lightSiders": Array [
+      1,
+    ],
+    "repo": Object {
+      "1": Object {
+        "actions": Array [],
+        "name": "john",
+      },
+      "2": Object {
+        "actions": Array [],
+        "name": "lucas",
+      },
+    },
+  },
+}
+`;
+
+exports[`front/reducers/application reducer reduces nothing 1`] = `
+Object {
+  "error": false,
+  "loading": 1,
+  "users": Object {
+    "darkSiders": Array [
+      2,
+    ],
+    "lightSiders": Array [
+      1,
+    ],
+    "repo": Object {
+      "1": Object {
+        "actions": Array [],
+        "name": "john",
+      },
+      "2": Object {
+        "actions": Array [],
+        "name": "lucas",
+      },
+    },
+  },
+}
+`;

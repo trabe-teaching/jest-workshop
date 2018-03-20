@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`back/logic/filters #addActions addActions 1`] = `
+Array [
+  Object {
+    "actions": Array [],
+    "id": 1,
+  },
+  Object {
+    "actions": Array [
+      "seek",
+    ],
+    "id": 2,
+    "rank": "potential",
+  },
+  Object {
+    "actions": Array [
+      "turn",
+    ],
+    "id": 3,
+    "rank": "apprentice",
+    "type": "light",
+  },
+  Object {
+    "actions": Array [
+      "turn",
+      "betray",
+    ],
+    "id": 4,
+    "rank": "apprentice",
+    "type": "dark",
+  },
+  Object {
+    "actions": Array [
+      "banish",
+    ],
+    "id": 5,
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+]
+`;

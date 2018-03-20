@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/action/api #fetchUsers GET /force-users 1`] = `[get] http://localhost:9090/force-users {"mode":"cors"}`;
+
+exports[`front/action/api #reset POST /reset 1`] = `[Error: Fetch error]`;
+
+exports[`front/action/api #seekMaster PUT /seek/id 1`] = `[put] http://localhost:9090/seek/1 {"mode":"cors"}`;

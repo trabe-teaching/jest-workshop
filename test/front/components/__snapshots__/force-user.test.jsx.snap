@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/components/force-user actions renders a force user that can Banish 1`] = `
+<div
+  className="box force-user force-user--light force-user--alive"
+>
+  <article
+    className="media"
+  >
+    <div
+      className="media-left"
+    >
+      <Avatar
+        email="luke@ach.to"
+      />
+    </div>
+    <div
+      className="media-content"
+    >
+      <div
+        className="content"
+      >
+        <p>
+          <strong>
+            Luke Skywalker
+          </strong>
+          <span
+            className="tag is-gray is-pulled-right"
+          >
+            master
+          </span>
+        </p>
+        <div
+          className="field is-grouped"
+        >
+          <div
+            className="control"
+          >
+            <a
+              className="button is-small"
+              href="#"
+              onClick={[Function]}
+            >
+              Join the force
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`front/components/force-user renders a force user 1`] = `
+<div
+  className="box force-user force-user--light force-user--alive"
+>
+  <article
+    className="media"
+  >
+    <div
+      className="media-left"
+    >
+      <Avatar
+        email="luke@ach.to"
+      />
+    </div>
+    <div
+      className="media-content"
+    >
+      <div
+        className="content"
+      >
+        <p>
+          <strong>
+            Luke Skywalker
+          </strong>
+          <span
+            className="tag is-gray is-pulled-right"
+          >
+            master
+          </span>
+        </p>
+        <div
+          className="field is-grouped"
+        />
+      </div>
+    </div>
+  </article>
+</div>
+`;

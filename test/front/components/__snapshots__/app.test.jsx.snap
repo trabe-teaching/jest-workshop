@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/components/app renders the app 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      darkSiders={
+        Array [
+          Object {
+            "canBanish": false,
+            "canBetray": false,
+            "canSeek": false,
+            "canTurn": true,
+            "email": "ben.solo@gmail.com",
+            "id": 2,
+            "master": Object {
+              "actions": Array [
+                "turn",
+              ],
+              "email": "ben.solo@gmail.com",
+              "id": 2,
+              "master": 2,
+              "name": "Ben Solo",
+              "rank": "apprentice",
+              "status": "alive",
+              "type": "light",
+            },
+            "name": "Ben Solo",
+            "rank": "apprentice",
+            "status": "alive",
+            "type": "light",
+          },
+        ]
+      }
+      error={false}
+      lightSiders={
+        Array [
+          Object {
+            "canBanish": true,
+            "canBetray": false,
+            "canSeek": false,
+            "canTurn": false,
+            "email": "luke@ach.to",
+            "id": 1,
+            "master": undefined,
+            "name": "Luke Skywalker",
+            "rank": "master",
+            "status": "alive",
+            "type": "light",
+          },
+        ]
+      }
+      loading={false}
+      onBanish={[Function]}
+      onBetray={[Function]}
+      onReset={[Function]}
+      onSeek={[Function]}
+      onTurn={[Function]}
+    >
+      <Error
+        visible={false}
+      />
+      <div
+        className="is-pulled-right"
+      >
+        <Loader
+          visible={false}
+        />
+      </div>
+      <h1
+        className="title is-1 has-text-centered"
+      >
+        Force users
+      </h1>
+      <div
+        className="columns"
+      >
+        <div
+          className="column"
+        >
+          <h2
+            className="title is-2 has-text-centered"
+          >
+            Light side
+          </h2>
+          <ForceUsers
+            onBanish={[Function]}
+            onBetray={[Function]}
+            onSeek={[Function]}
+            onTurn={[Function]}
+            users={
+              Array [
+                Object {
+                  "canBanish": true,
+                  "canBetray": false,
+                  "canSeek": false,
+                  "canTurn": false,
+                  "email": "luke@ach.to",
+                  "id": 1,
+                  "master": undefined,
+                  "name": "Luke Skywalker",
+                  "rank": "master",
+                  "status": "alive",
+                  "type": "light",
+                },
+              ]
+            }
+          >
+            <ForceUser
+              key="1"
+              onBanish={[Function]}
+              onBetray={[Function]}
+              onSeek={[Function]}
+              onTurn={[Function]}
+              user={
+                Object {
+                  "canBanish": true,
+                  "canBetray": false,
+                  "canSeek": false,
+                  "canTurn": false,
+                  "email": "luke@ach.to",
+                  "id": 1,
+                  "master": undefined,
+                  "name": "Luke Skywalker",
+                  "rank": "master",
+                  "status": "alive",
+                  "type": "light",
+                }
+              }
+            >
+              <div
+                className="box force-user force-user--light force-user--alive"
+              >
+                <article
+                  className="media"
+                >
+                  <div
+                    className="media-left"
+                  >
+                    <Avatar
+                      email="luke@ach.to"
+                    >
+                      <figure
+                        className="image is-64x64"
+                      >
+                        <img
+                          alt="Image"
+                          src="assets/bHVrZUBhY2gudG8=.png"
+                        />
+                      </figure>
+                    </Avatar>
+                  </div>
+                  <div
+                    className="media-content"
+                  >
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        <strong>
+                          Luke Skywalker
+                        </strong>
+                        <span
+                          className="tag is-gray is-pulled-right"
+                        >
+                          master
+                        </span>
+                      </p>
+                      <div
+                        className="field is-grouped"
+                      >
+                        <div
+                          className="control"
+                        >
+                          <a
+                            className="button is-small"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                            Join the force
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </ForceUser>
+          </ForceUsers>
+        </div>
+        <div
+          className="column"
+        >
+          <h2
+            className="title is-2 has-text-centered"
+          >
+            Dark side
+          </h2>
+          <ForceUsers
+            onBanish={[Function]}
+            onBetray={[Function]}
+            onSeek={[Function]}
+            onTurn={[Function]}
+            users={
+              Array [
+                Object {
+                  "canBanish": false,
+                  "canBetray": false,
+                  "canSeek": false,
+                  "canTurn": true,
+                  "email": "ben.solo@gmail.com",
+                  "id": 2,
+                  "master": Object {
+                    "actions": Array [
+                      "turn",
+                    ],
+                    "email": "ben.solo@gmail.com",
+                    "id": 2,
+                    "master": 2,
+                    "name": "Ben Solo",
+                    "rank": "apprentice",
+                    "status": "alive",
+                    "type": "light",
+                  },
+                  "name": "Ben Solo",
+                  "rank": "apprentice",
+                  "status": "alive",
+                  "type": "light",
+                },
+              ]
+            }
+          >
+            <ForceUser
+              key="2"
+              onBanish={[Function]}
+              onBetray={[Function]}
+              onSeek={[Function]}
+              onTurn={[Function]}
+              user={
+                Object {
+                  "canBanish": false,
+                  "canBetray": false,
+                  "canSeek": false,
+                  "canTurn": true,
+                  "email": "ben.solo@gmail.com",
+                  "id": 2,
+                  "master": Object {
+                    "actions": Array [
+                      "turn",
+                    ],
+                    "email": "ben.solo@gmail.com",
+                    "id": 2,
+                    "master": 2,
+                    "name": "Ben Solo",
+                    "rank": "apprentice",
+                    "status": "alive",
+                    "type": "light",
+                  },
+                  "name": "Ben Solo",
+                  "rank": "apprentice",
+                  "status": "alive",
+                  "type": "light",
+                }
+              }
+            >
+              <div
+                className="box force-user force-user--light force-user--alive"
+              >
+                <article
+                  className="media"
+                >
+                  <div
+                    className="media-left"
+                  >
+                    <Avatar
+                      email="ben.solo@gmail.com"
+                    >
+                      <figure
+                        className="image is-64x64"
+                      >
+                        <img
+                          alt="Image"
+                          src="assets/YmVuLnNvbG9AZ21haWwuY29t.png"
+                        />
+                      </figure>
+                    </Avatar>
+                  </div>
+                  <div
+                    className="media-content"
+                  >
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        <strong>
+                          Ben Solo
+                        </strong>
+                        <span
+                          className="tag is-gray is-pulled-right"
+                        >
+                          Ben Solo's apprentice
+                        </span>
+                      </p>
+                      <div
+                        className="field is-grouped"
+                      >
+                        <div
+                          className="control"
+                        >
+                          <a
+                            className="button is-small"
+                            href="#"
+                            onClick={[Function]}
+                          >
+                            Turn
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </ForceUser>
+          </ForceUsers>
+        </div>
+      </div>
+      <p
+        className="has-text-centered"
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Restart!
+        </a>
+      </p>
+    </App>
+  </Connect(App)>
+</Provider>
+`;
+
+exports[`front/components/app renders the app 2`] = `
+Array [
+  Object {
+    "id": 1,
+    "type": "BANISH",
+  },
+]
+`;

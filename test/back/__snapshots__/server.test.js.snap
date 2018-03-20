@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`server responses GET /force-users returns the users 1`] = `
+Array [
+  "user1",
+  "user2",
+]
+`;

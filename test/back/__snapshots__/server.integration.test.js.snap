@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`server responses GET /force-users returns the users 1`] = `
+Array [
+  Object {
+    "actions": Array [
+      "banish",
+    ],
+    "email": "luke@ach.to",
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "actions": Array [],
+    "email": "yoda@dagobah.com",
+    "id": 2,
+    "name": "Yoda",
+    "rank": "master",
+    "status": "ghost",
+    "type": "light",
+  },
+  Object {
+    "actions": Array [
+      "turn",
+    ],
+    "email": "ben.solo@gmail.com",
+    "id": 3,
+    "master": 1,
+    "name": "Ben Solo",
+    "rank": "apprentice",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "actions": Array [
+      "seek",
+    ],
+    "email": "rey@jaku.mail",
+    "id": 4,
+    "name": "Rey",
+    "rank": "potential",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "actions": Array [],
+    "email": "snoke@altavista.com",
+    "id": 5,
+    "name": "Supreme Leader Snoke",
+    "rank": "master",
+    "status": "alive",
+    "type": "dark",
+  },
+]
+`;

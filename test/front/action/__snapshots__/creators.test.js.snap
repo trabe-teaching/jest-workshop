@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/action/creators #apiFailed creates an API_FAILED action 1`] = `
+Object {
+  "type": "API_FAILED",
+}
+`;
+
+exports[`front/action/creators #usersFetch dispatches success actions 1`] = `
+Array [
+  Array [
+    Object {
+      "type": "USERS_FETCH_REQUEST",
+    },
+  ],
+  Array [
+    Object {
+      "payload": Object {
+        "users": "values",
+      },
+      "type": "USERS_UPDATED",
+    },
+  ],
+  Array [
+    Object {
+      "type": "USERS_FETCH_SUCCESS",
+    },
+  ],
+]
+`;
+
+exports[`front/action/creators #usersFetch dispatches success actions 2`] = `
+Array [
+  Array [
+    Object {
+      "type": "USERS_FETCH_REQUEST",
+    },
+  ],
+  Array [
+    Object {
+      "type": "API_FAILED",
+    },
+  ],
+]
+`;
+
+exports[`front/action/creators #usersUpdated creates an USERS_UPDATED action 1`] = `
+Object {
+  "payload": Object {
+    "users": Array [
+      1,
+      2,
+      3,
+    ],
+  },
+  "type": "USERS_UPDATED",
+}
+`;

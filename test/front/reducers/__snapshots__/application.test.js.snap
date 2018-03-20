@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/reducers/application reducer combines other reducers 1`] = `
+Object {
+  "error": "errorReducer",
+  "loading": "loadingReducer",
+  "users": "usersReducer",
+}
+`;

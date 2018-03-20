@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`back/store/datastore #createDataStore creates an store with seeds 1`] = `
+Array [
+  Object {
+    "email": "luke@ach.to",
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "email": "yoda@dagobah.com",
+    "id": 2,
+    "name": "Yoda",
+    "rank": "master",
+    "status": "ghost",
+    "type": "light",
+  },
+  Object {
+    "email": "ben.solo@gmail.com",
+    "id": 3,
+    "master": 1,
+    "name": "Ben Solo",
+    "rank": "apprentice",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "email": "rey@jaku.mail",
+    "id": 4,
+    "name": "Rey",
+    "rank": "potential",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "email": "snoke@altavista.com",
+    "id": 5,
+    "name": "Supreme Leader Snoke",
+    "rank": "master",
+    "status": "alive",
+    "type": "dark",
+  },
+]
+`;
+
+exports[`back/store/datastore #createDataStore store API #all returns all 1`] = `
+Array [
+  Object {
+    "email": "luke@ach.to",
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "email": "yoda@dagobah.com",
+    "id": 2,
+    "name": "Yoda",
+    "rank": "master",
+    "status": "ghost",
+    "type": "light",
+  },
+]
+`;
+
+exports[`back/store/datastore #createDataStore store API #find returns one 1`] = `false`;
+
+exports[`back/store/datastore #createDataStore store API #findAllBy returns all by criteria 1`] = `
+Array [
+  Object {
+    "email": "luke@ach.to",
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+]
+`;
+
+exports[`back/store/datastore #createDataStore store API #findBy returns one by criteria 1`] = `
+Object {
+  "email": "luke@ach.to",
+  "id": 1,
+  "name": "Luke Skywalker",
+  "rank": "master",
+  "status": "alive",
+  "type": "light",
+}
+`;
+
+exports[`back/store/datastore #createDataStore store API #reset restores the data 1`] = `
+Array [
+  Object {
+    "email": "luke@ach.to",
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "email": "yoda@dagobah.com",
+    "id": 2,
+    "name": "Yoda",
+    "rank": "master",
+    "status": "ghost",
+    "type": "light",
+  },
+]
+`;
+
+exports[`back/store/datastore #createDataStore store API #update updates the store 1`] = `
+Array [
+  Object {
+    "email": "luke@ach.to",
+    "id": 1,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "email": "yoda@dagobah.com",
+    "id": 2,
+    "name": "Yoda",
+    "rank": "master",
+    "status": "unknown",
+    "type": "light",
+  },
+]
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/components/loader renders if visible 1`] = `
+<p>
+  Loading
+</p>
+`;
+
+exports[`front/components/loader renders nothing if not visible 1`] = `null`;

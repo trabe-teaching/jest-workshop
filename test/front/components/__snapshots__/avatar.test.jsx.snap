@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/components/avatar renders an avatar 1`] = `
+<figure
+  className="image is-64x64"
+>
+  <img
+    alt="Image"
+    src="assets/dGVzdEBlbWFpbC5tYWls.png"
+  />
+</figure>
+`;

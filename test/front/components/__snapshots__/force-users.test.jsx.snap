@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/components/force-users renders the force users 1`] = `
+<React.Fragment>
+  <ForceUser
+    key="1"
+    onX="onX"
+    onY="onY"
+    user={
+      Object {
+        "id": 1,
+        "name": "Luke Skywalker",
+      }
+    }
+  />
+  <ForceUser
+    key="2"
+    onX="onX"
+    onY="onY"
+    user={
+      Object {
+        "id": 2,
+        "name": "Yoda",
+      }
+    }
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`front/reducers/application #getLightSiders returns dark users 1`] = `
+Array [
+  Object {
+    "canBanish": false,
+    "canBetray": true,
+    "canSeek": false,
+    "canTurn": true,
+    "email": "ben.solo@gmail.com",
+    "id": 3,
+    "master": Object {
+      "actions": Array [
+        "banish",
+      ],
+      "email": "luke@ach.to",
+      "id": 1,
+      "name": "Luke Skywalker",
+      "rank": "master",
+      "status": "alive",
+      "type": "light",
+    },
+    "name": "Ben Solo",
+    "rank": "apprentice",
+    "status": "alive",
+    "type": "light",
+  },
+]
+`;
+
+exports[`front/reducers/application #getLightSiders returns ligh users 1`] = `
+Array [
+  Object {
+    "canBanish": true,
+    "canBetray": false,
+    "canSeek": false,
+    "canTurn": false,
+    "email": "luke@ach.to",
+    "id": 1,
+    "master": undefined,
+    "name": "Luke Skywalker",
+    "rank": "master",
+    "status": "alive",
+    "type": "light",
+  },
+  Object {
+    "canBanish": false,
+    "canBetray": false,
+    "canSeek": false,
+    "canTurn": false,
+    "email": "yoda@dagobah.com",
+    "id": 2,
+    "master": undefined,
+    "name": "Yoda",
+    "rank": "master",
+    "status": "ghost",
+    "type": "light",
+  },
+]
+`;
+
+exports[`front/reducers/application reducer has a default state 1`] = `
+Object {
+  "darkSiders": Array [],
+  "lightSiders": Array [],
+  "repo": Object {},
+}
+`;
+
+exports[`front/reducers/application reducer reduces REQUEST 1`] = `
+Object {
+  "darkSiders": Array [],
+  "lightSiders": Array [
+    1,
+    2,
+    3,
+  ],
+  "repo": Object {
+    "1": Object {
+      "email": "luke@ach.to",
+      "id": 1,
+      "name": "Luke Skywalker",
+      "rank": "master",
+      "status": "ghost",
+      "type": "light",
+    },
+    "2": Object {
+      "actions": Array [],
+      "email": "yoda@dagobah.com",
+      "id": 2,
+      "name": "Yoda",
+      "rank": "master",
+      "status": "ghost",
+      "type": "light",
+    },
+    "3": Object {
+      "actions": Array [
+        "turn",
+        "betray",
+        "seekMaster",
+      ],
+      "email": "ben.solo@gmail.com",
+      "id": 3,
+      "master": 1,
+      "name": "Ben Solo",
+      "rank": "apprentice",
+      "status": "alive",
+      "type": "light",
+    },
+  },
+}
+`;
